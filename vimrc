@@ -40,6 +40,9 @@ set shiftwidth=4
 " Set tabstop
 set softtabstop=4
 
+" Set relative line numbers
+set rnu
+
 " Colorscheme settings
 :set t_Co=256
 :set background=dark
@@ -61,6 +64,9 @@ nmap <silent> <Leader>n :NERDTreeToggle<CR>
 
 " Add spaces around comment delimiters
 let NERDSpaceDelims=1
+
+" Show hidden files in NERDTree
+let NERDTreeShowHidden=1
 
 " map :bNext to <Leader>b
 nmap <silent> <Leader>b :bNext<CR>
