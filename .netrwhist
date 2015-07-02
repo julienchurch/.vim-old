@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/jules/.vim'
+let g:netrw_dirhist_2='/Users/jules'
+let g:netrw_dirhist_3='/Users/jules/.oh-my-zsh'
+let g:netrw_dirhist_4='/Users/jules'
+let g:netrw_dirhist_5='/Users/jules/Projects/yesod_tutorial'
+let g:netrw_dirhist_6='/Users/jules/.vim'

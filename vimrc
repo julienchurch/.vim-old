@@ -4,8 +4,12 @@ execute pathogen#infect()
 " Turn syntax highlighting on
 syntax on 
 
+" Colorscheme settings
+:set t_Co=256
+:set background=dark
+ 
 " Set colorscheme
-:colorscheme monokai 
+color highfructose
 
 " Enables language-dependent indentation based on filetype 
 filetype plugin on
@@ -32,21 +36,17 @@ filetype plugin on
 :set expandtab 
 
 " Set tabstop
-set tabstop=4
+:set tabstop=4
 
 " Set shiftwidth
-set shiftwidth=4
+:set shiftwidth=4
 
 " Set tabstop
-set softtabstop=4
+:set softtabstop=4
 
 " Set relative line numbers
-set rnu
+:set rnu
 
-" Colorscheme settings
-:set t_Co=256
-:set background=dark
- 
 " Set Leader to space
 let mapleader = " "
 
@@ -63,10 +63,10 @@ nnoremap <Leader>ww :q!<CR>
 nmap <silent> <Leader>n :NERDTreeToggle<CR>
 
 " Add spaces around comment delimiters
-let NERDSpaceDelims=1
+ let NERDSpaceDelims=1
 
 " Show hidden files in NERDTree
-let NERDTreeShowHidden=1
+ let NERDTreeShowHidden=1
 
 " map :bNext to <Leader>b
 nmap <silent> <Leader>b :bNext<CR>
@@ -90,4 +90,3 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " vim-multiple-cursors configuration
 let g:multi_cursor_quit_key='<Esc>'
-
