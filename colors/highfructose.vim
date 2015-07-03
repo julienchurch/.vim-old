@@ -16,7 +16,7 @@ hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
-hi LineNr ctermfg=238 ctermbg=234 cterm=bold guifg=#90908a guibg=#201f22 gui=NONE
+hi LineNr ctermfg=238 ctermbg=234 cterm=bold guifg=#5f5f5f guibg=#201f22 gui=NONE
 hi CursorLineNr ctermfg=190 cterm=bold
 hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
 hi MatchParen ctermfg=197 ctermbg=NONE cterm=underline guifg=#f92672 guibg=NONE gui=underline
@@ -33,7 +33,7 @@ hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f8f8f2 guibg=#201f22 gui=NON
 " Somehow Boolean represents QQ in Haskell
 hi Boolean ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Character ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi Comment ctermfg=240 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
+hi Comment ctermfg=240 ctermbg=NONE cterm=NONE guifg=#5f5f5f guibg=NONE gui=NONE
 hi Conditional ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Define ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
@@ -49,7 +49,7 @@ hi Function ctermfg=190 ctermbg=NONE cterm=bold guifg=#dcff00 guibg=NONE gui=bol
 hi Identifier ctermfg=190 ctermbg=NONE cterm=bold guifg=#dcff00 guibg=NONE gui=bold
 hi Keyword ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi NonText ctermfg=190 ctermbg=NONE cterm=NONE guifg=#49483e guibg=#31322c gui=NONE
+hi NonText ctermfg=190 ctermbg=NONE cterm=NONE guifg=#5f5f5f guibg=#201f22 gui=NONE
 hi Number ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Operator ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 " PreProc includes typeclass type declaration in Haskell
@@ -58,7 +58,7 @@ hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=59 ctermbg=237 cterm=NONE guifg=#49483e guibg=#3c3d37 gui=NONE
 hi Statement ctermfg=196 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi StorageClass ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
-hi String ctermfg=227 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+hi String ctermfg=227 ctermbg=NONE cterm=NONE guifg=#ffff63 guibg=NONE gui=NONE
 hi Tag ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
 hi Todo ctermfg=95 ctermbg=NONE cterm=inverse,bold guifg=#75715e guibg=NONE gui=inverse,bold
