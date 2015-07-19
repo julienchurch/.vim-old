@@ -56,6 +56,9 @@ nnoremap <Leader>s :w<CR>
 " map Leader + w to quit 
 nnoremap <Leader>w :q<CR>
 
+" map Leader + bw to close buffer
+nnoremap <Leader>bw :Bdelete<CR> 
+
 " map Leader + ww to force quit
 nnoremap <Leader>ww :q!<CR>
 
