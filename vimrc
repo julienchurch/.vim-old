@@ -93,3 +93,24 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " vim-multiple-cursors configuration
 let g:multi_cursor_quit_key='<Esc>'
+
+function! InsertStatuslineColor(mode)
+      if a:mode == 'i'
+          hi statusline guibg=red
+          hi statusline ctermbg=red
+      elseif a:mode == 'v'
+          hi statusline guibg=ffffff
+          hi statusline ctermbg=ffffff
+      else
+          hi statusline guibg=black
+          hi statusline ctermbg=000000
+      endif
+endfunction
+
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertChange * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline ctermbg=000000
+
+" default the statusline to green when
+" entering Vim
+" hi statusline guibg=green
