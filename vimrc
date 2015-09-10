@@ -96,8 +96,8 @@ let g:multi_cursor_quit_key='<Esc>'
 
 function! InsertStatuslineColor(mode)
       if a:mode == 'i'
-          hi statusline guibg=green
-          hi statusline ctermbg=green
+          hi statusline guibg=5f00ff
+          hi statusline ctermbg=5f00ff
       elseif a:mode == 'v'
           hi statusline guibg=red
           hi statusline ctermbg=red
