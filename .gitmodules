@@ -40,3 +40,6 @@
 [submodule "bundle/vim-syntax-shakespeare"]
 	path = bundle/vim-syntax-shakespeare
 	url = https://github.com/pbrisbin/vim-syntax-shakespeare.git
+[submodule "bundle/elm.vim"]
+	path = bundle/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
