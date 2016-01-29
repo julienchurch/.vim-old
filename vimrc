@@ -47,6 +47,10 @@ filetype plugin on
 " Set relative line numbers
 :set rnu
 
+" Set the column width
+" TODO: Turn this off for markup/text only. Fucking annoying
+" :set textwidth=80
+
 " Set Leader to space
 let mapleader = " "
 
