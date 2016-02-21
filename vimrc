@@ -36,16 +36,19 @@ filetype plugin on
 :set expandtab 
 
 " Set tabstop
-:set tabstop=4
-
-" Set shiftwidth
-:set shiftwidth=4
+:set tabstop=2
 
 " Set tabstop
-:set softtabstop=4
+:set softtabstop=2
+
+" Set shiftwidth
+:set shiftwidth=2
 
 " Set relative line numbers
 :set rnu
+
+" Set font for GUI/MacVim
+:set guifont=Hasklig:h12
 
 " Set the column width
 " TODO: Turn this off for markup/text only. Fucking annoying
@@ -70,10 +73,13 @@ nnoremap <Leader>ww :q!<CR>
 nmap <silent> <Leader>n :NERDTreeToggle<CR>
 
 " Add spaces around comment delimiters
- let NERDSpaceDelims=1
+let NERDSpaceDelims=1
 
 " Show hidden files in NERDTree
- let NERDTreeShowHidden=1
+let NERDTreeShowHidden=1
+
+" But ignore .pyc files
+let NERDTreeIgnore = ['\.pyc$']
 
 " map :bNext to <Leader>b
 nmap <silent> <Leader>b :bNext<CR>
@@ -100,7 +106,7 @@ let g:multi_cursor_quit_key='<Esc>'
 
 function! InsertStatuslineColor(mode)
       if a:mode == 'i'
-          hi statusline guibg=5f00ff
+          hi statusline guibg=green
           hi statusline ctermbg=5f00ff
       elseif a:mode == 'v'
           hi statusline guibg=red
@@ -113,8 +119,8 @@ endfunction
 
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertChange * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline guibg=black
 au InsertLeave * hi statusline ctermbg=000000
-
 " default the statusline to green when
 " entering Vim
 " hi statusline guibg=green
