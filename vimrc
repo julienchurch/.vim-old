@@ -44,6 +44,9 @@ filetype plugin on
 " Set shiftwidth
 :set shiftwidth=2
 
+" Force tabstop for Python
+au FileType python setl expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " Set relative line numbers
 :set rnu
 
