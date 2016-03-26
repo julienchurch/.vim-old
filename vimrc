@@ -47,11 +47,20 @@ filetype plugin on
 " Force tabstop for Python
 au FileType python setl expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
+" Force tabstop for Haskell
+au FileType haskell setl expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " Set relative line numbers
 :set rnu
 
 " Set font for GUI/MacVim
 :set guifont=Hasklig:h12
+
+" Set undo history to persistent
+:set undofile
+:set undodir=$HOME/.vim/undo
+:set undolevels=1000
+:set undoreload=10000
 
 " Set the column width
 " TODO: Turn this off for markup/text only. Fucking annoying
