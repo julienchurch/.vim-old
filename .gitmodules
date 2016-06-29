@@ -46,3 +46,6 @@
 [submodule "bundle/octave.vim--"]
 	path = bundle/octave.vim--
 	url = https://github.com/vim-scripts/octave.vim--.git
+[submodule "/Users/jules/.vim/bundle/Vundle.vim"]
+	path = /Users/jules/.vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
