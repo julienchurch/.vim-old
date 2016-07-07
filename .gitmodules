@@ -49,3 +49,6 @@
 [submodule "/Users/jules/.vim/bundle/Vundle.vim"]
 	path = /Users/jules/.vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim
+[submodule "/home/julien/.vim/bundle/Vundle.vim"]
+	path = /home/julien/.vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
