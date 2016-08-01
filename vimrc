@@ -21,6 +21,11 @@ Plugin 'eagletmt/ghcmod-vim'
 Plugin 'neovimhaskell/haskell-vim'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'ElmCast/elm-vim'
+
+let g:elm_setup_keybindings = 0
+
+let g:ycm_semantic_triggers = { 'elm' : ['.'], }
 
 "Fix backspacing
 set backspace=indent,eol,start
